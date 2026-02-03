@@ -13,6 +13,16 @@ Built for use with [OpenClaw](https://github.com/openclaw/openclaw) / Moltbot / 
 
 ## Installation
 
+### Via ClawHub (recommended)
+
+```bash
+clawhub install gousto
+cd skills/gousto
+./scripts/update-cache.sh
+```
+
+### Manual
+
 ```bash
 git clone https://github.com/dhruvkelawala/gousto-agent-skill.git
 cd gousto-agent-skill
