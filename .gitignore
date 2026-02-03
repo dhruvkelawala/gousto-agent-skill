@@ -1,0 +1,3 @@
+# Gousto Skill Cache
+data/*.json
+!data/.gitkeep
