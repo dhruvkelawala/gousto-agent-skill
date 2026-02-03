@@ -34,13 +34,12 @@ https://production-api.gousto.co.uk/cmsreadbroker/v1/recipes?limit=50&offset=0
 - Paginate with `offset` parameter (NOT `skip` — that's broken!)
 - ~9,300 recipes total
 
-**vfjr.dev Proxy** (full recipe details):
+**Official Gousto API** (single recipe):
 ```
-https://gousto.vfjr.dev/api/recipes/slug/{slug}
+https://production-api.gousto.co.uk/cmsreadbroker/v1/recipe/{slug}
 ```
-- Returns ingredients with quantities
-- Returns cooking steps with instructions
-- HTML in steps is stripped to plain text
+- Full recipe with ingredients, cooking steps, nutritional info
+- HTML in steps is stripped to plain text by the script
 
 ## Cache Format
 
