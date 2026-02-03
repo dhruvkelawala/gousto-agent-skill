@@ -1,3 +1,10 @@
+---
+name: gousto
+description: Search and browse 9,000+ Gousto recipes. Get full ingredients and step-by-step cooking instructions via official API.
+homepage: https://github.com/dhruvkelawala/gousto-agent-skill
+metadata: {"openclaw":{"emoji":"🍳","requires":{"bins":["curl","jq"]}}}
+---
+
 # Gousto Recipe Skill
 
 Search and browse 9,000+ Gousto recipes from the command line.
